@@ -94,7 +94,7 @@ const App: React.FC = () => {
 
       // Load categories
       try {
-        await dispatch(fetchCategories()).unwrap();
+        await dispatch(fetchCategories({})).unwrap();
       } catch (error) {
         console.error('Failed to load categories:', error);
       }

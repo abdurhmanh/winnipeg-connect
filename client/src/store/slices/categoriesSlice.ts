@@ -52,7 +52,7 @@ const initialState: CategoriesState = {
 // Async thunks
 export const fetchCategories = createAsyncThunk(
   'categories/fetchCategories',
-  async (params?: { parent?: string; search?: string; season?: string }, { rejectWithValue }) => {
+  async (params: { parent?: string; search?: string; season?: string } = {}, { rejectWithValue }) => {
     try {
       const response = await categoriesAPI.getCategories(params);
       return response.categories;
