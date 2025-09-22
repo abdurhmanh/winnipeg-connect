@@ -211,10 +211,18 @@ winnipeg-connect/
 
 ## 🚀 **Deployment**
 
-### **Vercel Deployment**
+### **Quick Deploy to Vercel**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/abdurhmanh/winnipeg-connect&project-name=winnipeg-connect&repository-name=winnipeg-connect)
+
+### **Manual Vercel Deployment**
 1. Connect your GitHub repository to Vercel
-2. Configure environment variables in Vercel dashboard
-3. Deploy with automatic CI/CD
+2. Set Root Directory to `client`
+3. Configure environment variables in Vercel dashboard
+4. Deploy with automatic CI/CD
+
+### **Live Demo**
+- **Frontend:** [https://winnipeg-connect.vercel.app](https://winnipeg-connect.vercel.app)
+- **API Health:** [https://winnipeg-connect-api.vercel.app/api/health](https://winnipeg-connect-api.vercel.app/api/health)
 
 ### **Manual Deployment**
 ```bash
