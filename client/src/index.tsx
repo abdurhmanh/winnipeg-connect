@@ -12,7 +12,11 @@ function App() {
       fontFamily: 'Arial, sans-serif',
       maxWidth: '1200px',
       margin: '0 auto',
-      padding: '20px'
+      padding: '20px',
+      '@media (max-width: 768px)': {
+        padding: '10px',
+        maxWidth: '100%'
+      }
     },
     header: {
       backgroundColor: '#1976d2',
